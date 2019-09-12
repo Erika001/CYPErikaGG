@@ -3,7 +3,7 @@
 ## Semestre 2020-1
 ![Logo Fes Aragón](fesa.jpg) 
 
-Aqui va una **descripción** del **repositorio**
+Aqui va una **descripción** del *repositorio*
 - elemento 1
 - elemento 2
 - elemento 3
