@@ -1,15 +1,18 @@
 SUMSER = 0
 BAND = 'T'
 i = 2
-for i in range(i, 1801, ):
+while(i <= 1800):
     SUMSER += i
     print(i)
-if BAND == 'T':
-    BAND = 'F'
-    i += 3
+    if BAND == 'T':
+       BAND = 'F'
+       i += 3
+    else:
+       BAND = 'T'
+       i += 2
 else:
-    BAND = 'T'
-    i += 2
-print(f"Los terminos de la serie son: {SUMSER}")
+    print(f"Los terminos de la serie son: {SUMSER}")
+print("Fin del programa")
+
 
 

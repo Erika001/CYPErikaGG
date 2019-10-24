@@ -1,16 +1,17 @@
 SERIE = 0
 N = int(input("Determine los terminos de la serie: "))
 BAND = 'T'
-I = 1
-for I in range(0, N, I):
+i = 1
+for i in range(i, N, 1):
     if BAND == 'T':
-        SERIE = N + 1 / I
+        SERIE = SERIE + 1 / i
         BAND ='F'
     else:
-        SERIE = N - 1 / I
+        SERIE = SERIE - 1 / i
         BAND = 'T'
-    I = I + 1
-print(SERIE)
+    i = i+1
+else:
+    print(f"El resultado de la serie es {SERIE}")
 print("Fin del programa")
 
 
